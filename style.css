@@ -1,0 +1,22 @@
+.wrapper {
+    width: inherit;
+    height: inherit;
+}
+
+.item {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    transition: .2s linear;
+    border: 0.42vw solid #fff;
+    border-radius: 2vw;
+    background-repeat: no-repeat;
+    background-size: 14vw;
+    background-position: center;
+    transition: border .2s linear;
+    transition: top .5s linear;
+}
+
+.chosen {
+    border: 0.42vw solid #0077FF;
+}

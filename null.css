@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 75vw;
+    background-color: #000;
+}
+
+.smooth-end {
+    animation: smooth-end 0.5s forwards
+}
+.smooth-start {
+    animation: smooth-start 0.5s forwards
+}
+
+@keyframes smooth-end {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes smooth-start {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
